@@ -6,10 +6,12 @@
 //  Copyright © 2017 Odom, Tyler. All rights reserved.
 //
 
-#include <iostream>
+#include "Controller.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    Controller * app = new Controller;
+    app->start();
+    
     return 0;
 }
